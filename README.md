@@ -53,3 +53,8 @@ python manage.py runserver
 
  To create new vender
  curl -X POST -H "Content-Type: application/json" -d '{"name": "Vendor XYZ", "location": "City"}' http://127.0.0.1:8000/api/vendors/
+ 
+ Create super User to login admin panel 
+ http://127.0.0.1:8000/admin/             //id = admin   ,   password = admin  You can also login from  this id password 
+ OR create New Id to  run the  following command 
+ python manage.py createsuperuser
